@@ -1,0 +1,54 @@
+/*IDs*/
+
+body
+{
+  background-color: #1a1a1a;
+  
+}
+
+h1
+{
+  color: #1a1a1a;
+  font-size: 70px;
+  font-family: Helvetica Neue;
+  font-weight: lighter;
+  position:relative;
+  margin:auto;
+  background-color: #4d4d00;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 2%;
+  box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.59);
+
+}
+
+#juego
+{
+
+  width:600px;
+  height:600px;
+  position:relative;
+  background-color: #4d4d00;
+  margin:auto;
+  border-radius: 100%;
+  box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.59);
+}
+
+/*Clases*/
+
+.pieza
+{
+  width:200px;
+  height:200px;
+  background-position:center;
+  position:absolute;
+  background-size: 100% 100%;
+  border:1px solid grey;
+  border-radius: 5%;
+  box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.59);
+  transition: all 0.3s;
+  margin:auto;
+  }
+
+  
